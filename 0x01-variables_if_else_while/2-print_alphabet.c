@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
-*main is the entry point
-*Description: program that prints the alphabet in lowercase
+*main - the entry point
+*Description: 'Print program that prints the alphabet in lowercase'
 *Return: 0 if successful
 */
 

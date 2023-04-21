@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-*main is the entry point
+*main - the entry point
 *Description: program that prints all single digit numbers of base 10 starting from 0
 *Return: 0 if successful
 */
