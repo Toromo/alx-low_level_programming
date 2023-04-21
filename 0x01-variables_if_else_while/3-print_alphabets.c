@@ -2,7 +2,6 @@
 
 /**
 *main - the entry point
-*Description: program that prints the alphabet in lowercase, and then in uppercase
 *Return: 0 if successful
 */
 

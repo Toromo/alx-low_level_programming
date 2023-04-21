@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
-*main - the entry point
-*Description: 'a program that prints the lowercase alphabet in reverse'
+*main is the entry point
 *Return: 0 if successful
 */
 

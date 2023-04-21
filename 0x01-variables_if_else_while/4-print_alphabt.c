@@ -2,7 +2,6 @@
 
 /**
 *main - the entry point
-*Description: program that prints the alphabet in lowercase, using only putchar function maximum of two times
 *Return: 0 if successful
 */
 
