@@ -2,17 +2,18 @@
 
 /**
 *main is the entry point
-*Description: program that prints the alphabet in lowercase
+*Description: program that prints all single digit numbers of base 10 starting from 0
 *Return: 0 if successful
 */
 
 int main(void)
 {
-	char ch;
+	int n;
 
-	for (ch = 'a' ; ch <= 'z' ; ch++)
+	while (n < 10)
 	{
-	putchar(ch);
+	printf("%d", n);
+	n++;
 	}
 	putchar('\n');
 
