@@ -1,6 +1,9 @@
 #include "main.h"
 
-/* positive_or_negative - check sign of integer */
+/**
+ * positive_or_negative - check sign of integer
+ * @i: any integer
+ */
 
 void positive_or_negative(int i)
 
