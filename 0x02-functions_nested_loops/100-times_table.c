@@ -1,6 +1,4 @@
 #include "main.h"
-
-
 /**
 * print_times_table - prints the n times table, starting with 0
 * @n: int to check
@@ -17,10 +15,7 @@ void print_times_table(int n)
 			{
 				k = j * i;
 				if (j == 0)
-				{
 					_putchar(k + '0');
-				}
-
 				if (k < 10 && j != 0)
 				{
 					_putchar(',');
