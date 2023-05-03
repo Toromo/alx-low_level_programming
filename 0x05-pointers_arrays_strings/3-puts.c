@@ -14,7 +14,7 @@ void _puts(char *str)
 
 	len = strlen(str);
 
-	for (k = 0; k <= len; k++)
+	for (k = 0; k < len; k++)
 	{
 		_putchar(str[k]);
 	}
