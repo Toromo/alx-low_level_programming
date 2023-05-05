@@ -7,28 +7,24 @@
  * @src: string two
  * Return: always 0 if successful
  */
-
 char *_strcat(char *dest, char *src)
 {
-	int len1;
-	int len2;
 	int i;
 	int j;
 
-	len1 = strlen(dest);
-	len2 = strlen(src);
-
-	for (i = 0; i < len1; i++)
+	i = 0;
+	while (dest[i] != '\0')
 	{
-		_putchar(dest[i]);
+		i++;
 	}
-	_putchar(' ');
-
-	for (j = 0; j < len2; j++)
+	j = 0;
+	while (src[j] != '\0')
 	{
-		_putchar(src[j]);
+		dest[i] = src[j];
+		i++;
+		j++;
 	}
-	_putchar('\0');
 
-	return (0);
+	dest[i] = '\0';
+	return (dest);
 }
